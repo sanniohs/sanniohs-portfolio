@@ -1,10 +1,9 @@
-
 import { GoogleGenAI } from "@google/genai";
 
 export const sendMessageToGemini = async (prompt: string, history: { role: 'user' | 'model', text: string }[]) => {
   // Fix: Always use new GoogleGenAI({apiKey: process.env.API_KEY}) directly as per guidelines.
   // The API key is assumed to be valid and accessible via process.env.API_KEY.
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   
   // Custom instruction for the portfolio assistant
   const systemInstruction = `

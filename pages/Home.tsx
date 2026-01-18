@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Home: React.FC = () => {
@@ -12,7 +11,7 @@ const Home: React.FC = () => {
   const pauseDuration = 2000;  // Pause at the end of typing (ms)
 
   useEffect(() => {
-    // Fix: Use any type for timeout to avoid NodeJS namespace error in browser environment
+    // Explicitly typing as any or number for browser compatibility
     let timeout: any;
 
     const handleTyping = () => {

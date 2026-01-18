@@ -1,13 +1,12 @@
-
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Archiving from './pages/Archiving';
-import Contact from './pages/Contact';
-import ChatAssistant from './components/ChatAssistant';
+import Header from './components/Header.tsx';
+import Sidebar from './components/Sidebar.tsx';
+import Home from './pages/Home.tsx';
+import About from './pages/About.tsx';
+import Archiving from './pages/Archiving.tsx';
+import Contact from './pages/Contact.tsx';
+import ChatAssistant from './components/ChatAssistant.tsx';
 
 const App: React.FC = () => {
   return (
