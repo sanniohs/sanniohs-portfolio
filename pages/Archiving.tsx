@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -54,6 +53,14 @@ const Archiving: React.FC = () => {
           'https://i.imgur.com/zbNGE9L.mp4',
           'https://i.imgur.com/w30wNjk.mp4'
         ],
+        aspectRatio: 'aspect-[4/3]',
+        category: 'ai'
+      },
+      {
+        id: 'ai-5',
+        title: 'PROJECT 5',
+        imageUrl: 'https://i.imgur.com/HZ2qhZh.mp4',
+        videoUrl: 'https://i.imgur.com/HZ2qhZh.mp4',
         aspectRatio: 'aspect-[4/3]',
         category: 'ai'
       }
