@@ -63,6 +63,14 @@ const Archiving: React.FC = () => {
         videoUrl: 'https://i.imgur.com/HZ2qhZh.mp4',
         aspectRatio: 'aspect-[4/3]',
         category: 'ai'
+      },
+      {
+        id: 'ai-6',
+        title: 'PROJECT 6',
+        imageUrl: 'https://i.imgur.com/4v2Dr7m.mp4',
+        videoUrl: 'https://i.imgur.com/4v2Dr7m.mp4',
+        aspectRatio: 'aspect-[4/3]',
+        category: 'ai'
       }
     ];
 
@@ -111,7 +119,10 @@ const Archiving: React.FC = () => {
         id: '3d-1',
         title: 'PROJECT 1',
         imageUrl: 'https://i.imgur.com/GOXJbuv.jpeg',
-        videoUrl: 'https://i.imgur.com/lGFCNML.mp4',
+        gallery: [
+          'https://i.imgur.com/lGFCNML.mp4',
+          'https://i.imgur.com/cM2V40L.png'
+        ],
         aspectRatio: 'aspect-[4/3]',
         category: '3d'
       },
